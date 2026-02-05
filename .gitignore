@@ -1,1 +1,21 @@
-node_modules/*
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Build outputs (可选：如果想在 GitHub 上保留预构建版本，注释掉下一行)
+# dist-lib/
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Local
+*.local

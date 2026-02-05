@@ -1,0 +1,25 @@
+# 发布时忽略的文件和目录
+node_modules/
+src/
+dist/
+public/
+test/
+.git/
+.gitignore
+.agent/
+
+# 配置文件
+vite.config.js
+eslint.config.js
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# 文档（保留 README.md）
+UI_DOCUMENTATION.md
+
+# 开发文件
+*.log
+*.local
+.DS_Store
+
+dist-lib/vite.svg
